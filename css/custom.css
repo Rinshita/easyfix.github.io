@@ -1,0 +1,72 @@
+/* change brand name font */
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* change navigation color */
+.navbar  #myMenu .custom-nav .nav-item a 
+{
+    color: white;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover
+{
+    color: midnightblue;
+}
+
+/* make header img responsive */
+.back-image
+{
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    margin-top: 74px;
+}
+
+/* header img subtitle */
+.font-italic
+{
+    font-size: 24px;
+}
+
+.fi-color
+{
+    color: lightblue;
+}
+
+a
+{
+    color: black;
+}
+
+.active
+{
+    color: white;
+    background-color: #428bca;
+}
+
+a:hover
+{
+    color: darkslategray;
+}
+
+/* margin for welcome to easyfix */
+.mainHeading
+{
+    margin-top: 120px;
+}
+
+/*media query for banner heading  */
+@media only screen and (max-width: 600px)
+{
+.myclass
+{
+    margin-top: 200px;
+    text-align: center;
+}
+}
